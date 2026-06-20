@@ -1,0 +1,36 @@
+1- Data Scraping & Collection
+2- ETL Pipelines & Data Exploration
+3- ML Modeling & MLflow (Classification Model + Recommendation System)
+4- CI/CD & Docke
+5- Deployment & RESTful API
+6- Power BI & Dashboards
+
+churn_project/
+│
+├── data/                      # الداتا الخام والنظيفة
+│   ├── raw/
+│   └── processed/
+│
+├── notebooks/                 # الـ Notebooks للتجارب فقط
+│   └── exploration.ipynb
+│
+├── src/                       # الكود الأساسي للمشروع
+│   ├── __init__.py
+│   ├── data_prep.py          # مرحلة الـ ETL والـ Feature Engineering
+│   ├── train_churn.py        # تدريب موديل التصنيف + MLflow
+│   ├── train_recommender.py  # بناء نظام الترشيحات + MLflow
+│   └── pipeline.py           # الـ End-to-End Pipeline
+│
+├── app/                       # الـ API والـ Deployment
+│   ├── __init__.py
+│   ├── main.py               # FastAPI application
+│   └── schemas.py            # تعريف الـ Request/Response (Pydantic)
+│
+├── docker/                    # ملفات الـ Container
+│   └── Dockerfile
+│
+├── .github/workflows/         # الـ CI/CD Pipelines
+│   └── ci-cd.yml
+│
+├── requirements.txt           # المكتبات المستخدمة
+└── README.md
