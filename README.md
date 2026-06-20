@@ -1,6 +1,3 @@
-تفضلي، هذا هو الكود بالكامل داخل بلوك برمجى واحد (Markdown Code Block)؛ لتتمكني من نسخه بضغطة زر واحدة (Copy) ووضعه مباشرة في ملف الـ `README.md`:
-
-```markdown
 # 📱 Telecom Churn Prediction: End-to-End Enterprise MLOps Pipeline
 
 An enterprise-grade, production-ready MLOps pipeline designed to predict telecom customer churn using **XGBoost**. This project transitions from experimental notebooks to a fully modular, decoupled architecture featuring configuration-driven workflows, experiment tracking, Docker containerization, and automated CI/CD.
