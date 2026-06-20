@@ -12,8 +12,9 @@ jobs:
     - name: Checkout Code
       uses: actions/checkout@v3
 
+    # التعديل تم هنا: أصلحنا الاسم ليكون التابع الرسمي لـ GitHub مباشرة
     - name: Set up Python 3.11
-      uses: actions/actions-setup-python@v4
+      uses: actions/setup-python@v4
       with:
         python-version: "3.11"
 
